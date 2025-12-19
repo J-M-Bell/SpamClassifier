@@ -35,10 +35,11 @@ class SpamClassifierModel:
     def predict(self, text):
         vectorized_output = self.tdidf_vectorizer.transform([text])
         prediction = self.log_classifier.predict(vectorized_output)
+        prediction = prediction[0]
         return prediction
     
 
-# message = "I HAVE A DATE ON SUNDAY WITH WILL!!"
+# message = I HAVE A DATE ON SUNDAY WITH WILL!!"
 # spamModel = SpamClassifierModel()
 # prediction = spamModel.predict(message)
 # print(prediction)
