@@ -1,5 +1,4 @@
-from PyQt6 import QtWidgets
-
+from PyQt6 import QtWidgets, uic
 from widget_ui import Ui_Widget
 from spam_model import SpamClassifierModel
 
@@ -7,6 +6,7 @@ class Widget(QtWidgets.QWidget, Ui_Widget):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        # uic.loadUi("widget.ui", self)
         self.setWindowTitle("Spam Classifier")
         self.submitButton.clicked.connect(self.makePrediction)
         self.resetButton.clicked.connect(self.resetScreen)
