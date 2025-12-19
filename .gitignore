@@ -1,1 +1,10 @@
 Workspace/Spam Classifier.code-workspace
+__pycache__/spam_model.cpython-314.pyc
+__pycache__/widget_ui.cpython-314.pyc
+__pycache__/widget.cpython-314.pyc
+Application/__pycache__/spam_model.cpython-313.pyc
+Application/__pycache__/spam_model.cpython-314.pyc
+Application/__pycache__/widget_ui.cpython-313.pyc
+Application/__pycache__/widget_ui.cpython-314.pyc
+Application/__pycache__/widget.cpython-313.pyc
+Application/__pycache__/widget.cpython-314.pyc
