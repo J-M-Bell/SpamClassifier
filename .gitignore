@@ -8,3 +8,6 @@ Application/__pycache__/widget_ui.cpython-313.pyc
 Application/__pycache__/widget_ui.cpython-314.pyc
 Application/__pycache__/widget.cpython-313.pyc
 Application/__pycache__/widget.cpython-314.pyc
+DBConnectionEngine.py
+DBCreation.py
+__pycache__/DBConnectionEngine.cpython-314.pyc
