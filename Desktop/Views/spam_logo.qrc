@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="spam_logo">
+    <file>appstore.png</file>
+  </qresource>
+</RCC>
