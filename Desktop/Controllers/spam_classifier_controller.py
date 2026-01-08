@@ -1,7 +1,9 @@
-from PyQt6 import QtWidgets, uic
+from PyQt6.QtWidgets import QWidget
+from PyQt6 import uic
 from Models.spam_classifier_model import SpamClassifierModel
+import resources
 
-class SpamClassifierController(QtWidgets.QWidget):
+class SpamClassifierController(QWidget):
     def __init__(self):
         super().__init__()
         uic.loadUi("./Desktop/Views/spam_classifier_view.ui", self)
