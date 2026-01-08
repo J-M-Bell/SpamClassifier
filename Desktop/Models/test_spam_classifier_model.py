@@ -2,8 +2,18 @@ from spam_classifier_model import SpamClassifierModel
 import unittest
 
 class SpamClassifierModelTests(unittest.TestCase):
-
+    """
+    A test suite to test the SpamClassifierModel methods
+    """
     def test_custom_tokenizer(self):
+        """
+        A unit test to test the output of the
+        custom_tokenizer method in the SpamClassifierModel
+        
+        :param self: SpamClassifierModelTests - The SpamClassifierModelTests object
+        """
+
+        #test if string is vectorized correctly
         model = SpamClassifierModel()
         text = "Did you catch the bus ? Are you frying an egg ? Did you make a tea? Are you eating your mom's left over dinner ? Do you feel my Love ?"
         actual = model._custom_tokenizer(text)
@@ -11,6 +21,14 @@ class SpamClassifierModelTests(unittest.TestCase):
         self.assertEqual(actual, expected)
     
     def test_predict(self):
+        """
+        A unit test to test the output of the
+        predict method in the SpamClassifierModel
+        
+        :param self: SpamClassifierModelTests - The SpamClassifierModelTests object
+        """
+
+        # test if the prediction string is correct
         model = SpamClassifierModel()
         text = "Did you catch the bus ? Are you frying an egg ? Did you make a tea? Are you eating your mom's left over dinner ? Do you feel my Love ?"
         actual = model.predict(text)
