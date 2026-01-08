@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="resources">
+    <file>Images/detective2.png</file>
+    <file>Images/appstore.png</file>
+  </qresource>
+</RCC>
