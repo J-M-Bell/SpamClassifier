@@ -2,7 +2,11 @@ import sys
 from PyQt6 import QtWidgets
 from Controllers.spam_classifier_controller import SpamClassifierController
 
+
 def main():
+    """
+    main function to begin application
+    """
     app = QtWidgets.QApplication(sys.argv)
 
     window = SpamClassifierController()
