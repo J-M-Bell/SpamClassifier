@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>332</width>
-    <height>380</height>
+    <width>297</width>
+    <height>398</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <x>10</x>
      <y>20</y>
      <width>271</width>
-     <height>280</height>
+     <height>366</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -61,24 +61,18 @@
     <item row="1" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="logo">
         <property name="maximumSize">
          <size>
           <width>100</width>
           <height>100</height>
          </size>
         </property>
-        <property name="accessibleName">
-         <string>0</string>
-        </property>
-        <property name="lineWidth">
-         <number>0</number>
-        </property>
         <property name="text">
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="spam_logo.qrc">:/spam_logo/appstore.png</pixmap>
+         <pixmap resource="../resources.qrc">:/resources/Images/appstore.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -100,11 +94,34 @@
       </property>
      </widget>
     </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../resources.qrc">:/resources/Images/detective2.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
    </layout>
   </widget>
  </widget>
  <resources>
-  <include location="./spam_logo.qrc"/>
+  <include location="../resources.qrc"/>
  </resources>
  <connections/>
 </ui>
