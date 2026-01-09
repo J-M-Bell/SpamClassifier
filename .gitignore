@@ -25,3 +25,16 @@ Desktop/Models/__pycache__/spam_model.cpython-314.pyc
 Desktop/__pycache__/resources.cpython-314.pyc
 Model Creation/.DS_Store
 Desktop/__pycache__/test_ui_spam_classifier_controller.cpython-314-pytest-9.0.2.pyc
+DesktopApp/Controllers/__pycache__/spam_classifier_controller.cpython-314.pyc
+DesktopApp/Controllers/__pycache__/test_spam_classifier_controller.cpython-314-pytest-9.0.2.pyc
+DesktopApp/Controllers/__pycache__/widget.cpython-314.pyc
+DesktopApp/Data/__pycache__/spam_model.cpython-314.pyc
+DesktopApp/Models/__pycache__/spam_classifier_model_tests.cpython-314.pyc
+DesktopApp/Models/__pycache__/spam_classifier_model.cpython-314.pyc
+DesktopApp/Models/__pycache__/spam_model.cpython-314.pyc
+DesktopApp/__pycache__/resources.cpython-314.pyc
+DesktopApp/__pycache__/spam_model.cpython-314.pyc
+DesktopApp/__pycache__/test_spam_classifier_controller.cpython-314-pytest-9.0.2.pyc
+DesktopApp/__pycache__/test_ui_spam_classifier_controller.cpython-314-pytest-9.0.2.pyc
+DesktopApp/__pycache__/widget_ui.cpython-314.pyc
+DesktopApp/__pycache__/widget.cpython-314.pyc
