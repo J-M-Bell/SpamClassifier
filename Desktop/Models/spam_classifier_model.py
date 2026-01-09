@@ -62,7 +62,7 @@ class SpamClassifierModel:
         find prediction of whether a message is spam or ham
         
         :param self: SpamClassifierModel - The SpamClassifierModel object
-        :param text: String - spam message string
+        :param text: String - spam message string from user
 
         :return the prediction as a String
         """
